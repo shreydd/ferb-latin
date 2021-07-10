@@ -24,6 +24,7 @@ body {
     margin: 0rem;
     /* margin: 0px; */
     /* padding: 0px; */
+    /* top: 0px; */
 }
 
 nav {
@@ -33,6 +34,7 @@ nav {
     /* padding: 0rem; */
     /* outline: 0rem; */
     background-color: var(--primary);
+    /* top: 0px; */
 }
 
 .inp-text {
@@ -62,4 +64,22 @@ main {
     font-size: large;
     font-family: inherit;
     border: 2px solid black;
+}
+
+.footer {
+    background-color: var(--primary);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: black;
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
