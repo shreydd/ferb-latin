@@ -1,19 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 * {
     box-sizing: border-box;
 }
 
 body {
     /* font-family: 'Kalam', sans-serif; */
-    font-family: 'Kalam', cursive;
+    font-family: 'Comfortaa', cursive;
     margin: 0px;
     /* display: block; */
+    /* justify-content: center; */
 }
 
 :root {
     --primary: #F2C94C;
     --black: #333333;
     --max-width: 600px;
+    --blue: rgb(25, 250, 244);
+}
+
+a {
+    color: inherit;
 }
 
 .heading {
@@ -34,7 +40,7 @@ nav {
     /* margin: 0rem; */
     /* padding: 0rem; */
     /* outline: 0rem; */
-    background-color: var(--primary);
+    background-color: var(--blue);
     /* top: 0px; */
 }
 
@@ -59,6 +65,7 @@ button:hover {
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
+    padding: 10px;
 }
 
 main {
@@ -77,10 +84,11 @@ main {
     font-size: large;
     font-family: inherit;
     border: 2px solid black;
+    padding: 10px;
 }
 
 .footer {
-    background-color: var(--primary);
+    background-color: var(--blue);
     padding: 2rem;
     text-align: center;
     color: black;
