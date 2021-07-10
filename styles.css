@@ -6,6 +6,7 @@
 body {
     /* font-family: 'Kalam', sans-serif; */
     font-family: 'Kalam', cursive;
+    margin: 0px;
     /* display: block; */
 }
 
@@ -37,6 +38,19 @@ nav {
     /* top: 0px; */
 }
 
+.btn-translate {
+    padding: 1rem;
+    background-color: var(--black);
+    /* border-style: none; */
+    border: 2px solid var(--black);
+    color: white;
+}
+
+button:hover {
+    background: white;
+    color: var(--black);
+}
+
 .inp-text {
     /* box-sizing: border-box; */
     display: block;
@@ -59,7 +73,6 @@ main {
     min-height: 10vh;
     max-height: 20vh;
     overflow: scroll;
-    /* scroll-behavior: var(--max-width); */
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
@@ -68,7 +81,7 @@ main {
 
 .footer {
     background-color: var(--primary);
-    padding: 2rem 1rem;
+    padding: 2rem;
     text-align: center;
     color: black;
     position: fixed;
