@@ -1,9 +1,8 @@
 var btn = document.querySelector('.btn-translate');
 var inputText;
 var outputWindow = document.querySelector('.outputArea');
-// var url = 'https://api.funtranslations.com/translate/ferb-latin.json';
-var url = 'https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json';
-// var url = 'https://api.funtranslations.com/translate/minion.json';
+var url = 'https://api.funtranslations.com/translate/ferb-latin.json';
+// var url = 'https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json';
 
 function translateURL(text) {
     return url + '?' + 'text=' + text
